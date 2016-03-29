@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Home"  description="Home page">
+    <siteMapNode url="Request.aspx" title="Reservation request"  description="Request a room reservation" />
+    <siteMapNode url="" title="Accommodations"  description="Room accommodations">
+      <siteMapNode url="" title="Standard room" description="Standard room highlights" />
+      <siteMapNode url="" title="Business room" description="Business room highlights" />
+      <siteMapNode url="" title="Suite" description="Suite highlights" />
+    </siteMapNode>
+    <siteMapNode url="" title="Services" description="Hotel services" />
+    <siteMapNode url="" title="Activities" description="Local activities">
+      <siteMapNode url="" title="Restaurants" description="Restaurants" />
+      <siteMapNode url="" title="Theaters" description="Movie theaters" />
+      <siteMapNode url="" title="Shopping" description="Shopping malls" />
+      <siteMapNode url="" title="Outdoor Activities" description="Hiking, biking, and watersports" />
+    </siteMapNode>
+    <siteMapNode url="About.aspx" title="About us" description="About our hotel">
+      <siteMapNode url="History.aspx" title="History" description="The history of our hotel" />
+      <siteMapNode url="Directions.aspx" title="Directions" description="Directions to our hotel" />
+      <siteMapNode url="Map.aspx" title ="Map" description="A map of the hotel, so you won't get lost" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
