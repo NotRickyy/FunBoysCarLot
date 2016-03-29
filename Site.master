@@ -4,12 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Test </title>
+    <title></title>
     <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <header>Fun Boys Car Lot</header>
+
     <form id="form1" runat="server">
 
         <div>
@@ -25,13 +25,16 @@
                 </asp:Menu>
 
                 <asp:SiteMapDataSource ID="mnuNavDataSource" runat="server" ShowStartingNode="false" />
-                
+
             </nav>
-            
+
 
             <asp:ContentPlaceHolder ID="bodyPlaceHolder" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </form>
+    <footer>
+        <p>2016 © Banana Boys</p>
+    </footer>
 </body>
 </html>
