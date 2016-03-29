@@ -14,7 +14,7 @@
 
         <div>
             <nav>
-                <asp:Menu ID="mnuNav" runat="server" BackColor="#F7F6F3" DataSourceID="mnuNavDataSource" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57" StaticSubMenuIndent="10px">
+<%--                <asp:Menu ID="mnuNav" runat="server" DataSourceID="mnuNavDataSource" Orientation="Horizontal" BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#7C6F57" StaticSubMenuIndent="10px">
                     <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
                     <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                     <DynamicMenuStyle BackColor="#F7F6F3" />
@@ -22,10 +22,21 @@
                     <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                     <StaticSelectedStyle BackColor="#5D7B9D" />
-                </asp:Menu>
-                <asp:SiteMapDataSource ID="mnuNavDataSource" runat="server" />
-            </nav>
+                </asp:Menu>--%>
 
+                <asp:Menu ID="Menu1" runat="server" Orientation ="Horizontal" StaticEnableDefaultPopOutImage="False" DataSourceID="mnuNavDataSource" BackColor="#B5C7DE" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="90%" ForeColor="white" StaticSubMenuIndent="10px">
+                    <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#B5C7DE" />
+                    <DynamicSelectedStyle BackColor="#507CD1" />
+                    <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+                    <StaticMenuItemStyle HorizontalPadding="10px" VerticalPadding="4px" />
+                    <StaticSelectedStyle BackColor="#507CD1" />
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="mnuNavDataSource" runat="server" ShowStartingNode="false" />
+                
+            </nav>
+            
 
             <asp:ContentPlaceHolder ID="bodyPlaceHolder" runat="server">
             </asp:ContentPlaceHolder>
