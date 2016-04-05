@@ -6,22 +6,11 @@
     
     <siteMapNode url="CarLot.aspx" title="Car Lot"  description="View Cars On Lot"/>
       
-    <siteMapNode url="About.aspx" title="About Us" description="Details About our Business" />
-
+    <siteMapNode url="About.aspx" title="About Us" description="Details About our Business">
+      <siteMapNode url="Reviews.aspx" title="Reviews" description="Reviews" />
+    </siteMapNode>
+    
     <siteMapNode url="Register.aspx" title="Register" description="Resgister Account on Website" />
-    
-    <!--<siteMapNode url="" title="Activities" description="Local activities">
-      <siteMapNode url="" title="Restaurants" description="Restaurants" />
-      <siteMapNode url="" title="Theaters" description="Movie theaters" />
-      <siteMapNode url="" title="Shopping" description="Shopping malls" />
-      <siteMapNode url="" title="Outdoor Activities" description="Hiking, biking, and watersports" />
-    </siteMapNode>-->
-    
-    <!--<siteMapNode url="About.aspx" title="About us" description="About our hotel">
-      <siteMapNode url="History.aspx" title="History" description="The history of our hotel" />
-      <siteMapNode url="Directions.aspx" title="Directions" description="Directions to our hotel" />
-      <siteMapNode url="Map.aspx" title ="Map" description="A map of the hotel, so you won't get lost" />
-    </siteMapNode>-->
-    
+
   </siteMapNode>
 </siteMap>

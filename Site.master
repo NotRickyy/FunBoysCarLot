@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Master page</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Style.css"/>
     <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -12,12 +13,16 @@
 
     <form id="form1" runat="server">
 
-        <div>
+        <div id ="midDiv">
             <nav>
                 <asp:Menu ID="mnuNav" runat="server" DataSourceID="mnuNavDataSource" Orientation="Horizontal" BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="100%" ForeColor="#6666ff" StaticSubMenuIndent="10px">
-                    <StaticHoverStyle BackColor="green" ForeColor="White" />
+                    <StaticHoverStyle BackColor="deeppink" ForeColor="White" />
                     <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                     <StaticSelectedStyle BackColor="pink" />
+                    <DynamicHoverStyle BackColor="deeppink" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="white" />
+                    <DynamicSelectedStyle BackColor="pink" />
                 </asp:Menu>
 
                 <asp:SiteMapDataSource ID="mnuNavDataSource" runat="server" ShowStartingNode="false" />
