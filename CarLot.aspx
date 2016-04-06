@@ -6,5 +6,8 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="bodyPlaceHolder" runat="server">
-    <h1>CAR LOT</h1>
+    <h1>
+        <asp:ListView ID="ListView1" runat="server">
+        </asp:ListView>
+    </h1>
 </asp:Content>
