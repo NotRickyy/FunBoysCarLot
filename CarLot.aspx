@@ -2,7 +2,7 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="headPlaceHolder" runat="server">
-    <title>Testing</title>
+    <title>Car Lot</title>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="bodyPlaceHolder" runat="server">
